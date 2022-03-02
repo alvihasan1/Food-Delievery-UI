@@ -1,0 +1,201 @@
+/* CSS Reset */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Header: Navbar */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  opacity: 0.7;
+  width: 100%;
+}
+
+/* Header: Navbar lists */
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#navbar ul li a:hover {
+  color: green;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: 1s;
+}
+
+#navbar ul li a:active {
+  color: green;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #fff;
+  transition: 1s;
+}
+
+/* Header: Navbar Logo*/
+.logo-img {
+  width: 120px;
+  height: 70px;
+  margin: 10px 50px;
+  border-radius: 100%;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*It centers the content horizontally */
+  justify-content: center; /*It centers the content vertically */
+  margin-top: 2px;
+  background-image: url("../images/food_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.bg-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  opacity: 0.7;
+  width: 70%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.h1-primary {
+  color: #fff;
+  margin-top: 25px;
+  /* padding: 40px auto 4px; */
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.bg-content p {
+  font-size: 18px;
+  padding: 10px 40px 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn {
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 1px 22px;
+  color: black;
+  border: 2px solid green;
+  background-color: #fff;
+  cursor: pointer;
+  width: 20%;
+}
+
+.services-h1 {
+  margin: 15px auto;
+  text-align: center;
+}
+
+hr {
+  border-top: 2px dashed green;
+  width: 7%;
+  border-bottom: none;
+  margin: auto;
+  opacity: 0.5;
+}
+
+/* Services Section */
+
+#services {
+  display: flex;
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.services-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 6px 12px;
+  border: green 2px solid;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+.services-images {
+  width: 60%;
+  height: 180px;
+  border-radius: 30%;
+  margin-bottom: 20px;
+}
+
+.services-boxes h2 {
+  margin-bottom: 7px;
+}
+
+.services-boxes p {
+  text-align: center;
+  padding: 5px 25px 25px 25px;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* Clients Section */
+#clients {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 1%;
+}
+
+.client-items {
+  flex-direction: row; /* btw its row by default */
+  padding: 15px;
+}
+
+.clients-images {
+  height: 180px;
+  padding: 2%;
+}
+
+/* Footer */
+
+#footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 210, 210);
+  height: 20vh;
+}
+
+.footer-p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

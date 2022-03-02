@@ -1,0 +1,68 @@
+/* Media query for max width of 600px and less */
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+  }
+
+  #navbar ul li {
+    list-style: none;
+    padding: 10px;
+  }
+
+  #navbar ul li a {
+    font-size: 16px;
+    padding: 2px 5px;
+  }
+
+  #navbar ul li a:hover {
+    font-size: 16px;
+    padding: 2px 5px;
+  }
+
+  #home {
+    height: 100%;
+  }
+
+  .bg-content {
+    width: 65%;
+    height: 65%;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+
+  .h1-primary {
+    font-size: 1.2rem;
+  }
+
+  .bg-content p {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 10px;
+    margin: 20px;
+    padding: 5px;
+    color: black;
+    width: 20%;
+  }
+
+  #services {
+    flex-direction: column;
+  }
+
+  #clients {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clients-images {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .clients-images {
+    width: 100%;
+  }
+}
